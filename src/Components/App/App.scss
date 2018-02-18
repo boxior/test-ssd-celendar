@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'opensans';
+  src: url('../../fonts/opensans/opensans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'firasans';
+  src: url('../../fonts/firasans/firasans.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+
+  * {
+    user-select: none;
+  }
+}

@@ -1,0 +1,116 @@
+.main {
+
+  .main__table {
+
+  }
+  .table {
+
+  }
+  .table__header-table {
+
+  }
+  .header-table {
+    display: flex;
+  }
+  .header-table__days {
+    width: 30px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'opensans', sans-serif;
+    font-size: 10px;
+  }
+  .header-table__hours {
+    display: flex;
+
+  }
+  .header-table__period {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    width: 45px;
+    font-family: 'opensans', sans-serif;
+    font-size: 10px;
+    line-height: 20px;
+
+    &:before {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      content: '';
+      width: 1px;
+      height: 10px;
+      background-color: #949494;
+    }
+  }
+  .table__body {
+
+  }
+  .body {
+
+  }
+  .body__tr {
+
+  }
+  .tr {
+    display: flex;
+    height: 38px;
+    border: 1px solid #cfcfcf;
+    border-bottom: none;
+
+    &:last-child {
+      border-bottom: 1px solid #cfcfcf;
+    }
+  }
+  .tr__day-name {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'firasans', sans-serif;
+    font-size: 12px;
+    letter-spacing: .25px;
+    text-transform: uppercase;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &.active-day {
+      color: #8c8c8c;
+      background-color: #dbdbdb;
+    }
+  }
+  .tr__day-all {
+    width: 30px;
+    border-left: 1px solid #dbdbdb;
+    background-color: #949494;
+
+    &:hover {
+    cursor: pointer;
+  }
+
+    &.active-all-day {
+      background: #949494 url('../../images/check.png') no-repeat center center;
+      background-size: 17px;
+    }
+  }
+  .tr__day-hours {
+    display: flex;
+  }
+  .tr__day-hour {
+    width: 15px;
+    border-left: 1px solid #cfcfcf;
+    
+    &:hover {
+      cursor: pointer;
+    }
+    
+
+    &.active-hour {
+      background-color: #dbdbdb;
+    }
+  }
+
+}

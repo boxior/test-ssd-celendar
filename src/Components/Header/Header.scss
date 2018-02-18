@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  -ms-text-align-last: left;
+  text-align-last: left;
+
+  .header__title {
+    font-family: 'opensans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+}
