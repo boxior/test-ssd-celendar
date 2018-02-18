@@ -1,18 +1,4 @@
-https://boxior.github.io/test-eldorado/build/index.html
-
-Можно перейти по ссылке выше или склонировать проект и запустить командой 'npm start'.
-
-В задании использовал Scss с компиляцией в PostCss в build, autoprefixer для кроссбраузерности  (пришлось покопаться в webpack.config.dev.js и webpack.config.prod.js)
-
-Использовал react-router.
-
-Сделал несколько проверок в компоненте Donation, с сумой.
-
-Использовал БEM при написании классов. Вложенность елементов в блоки в SCSS не писал через '&', так приучили), чтобы легче было искать классы в большом проекте.
-
-На задание потратил 10-12 часов, так как некоторые моменты с React приходилось гуглить). Если еще раз приступить к похожему заданию, времени бы потратил в раза 2 меньше)
-
-Многое не доделал что мог и знал, но хотелось подвести код и исполнение к нормальному виду. Жду фидбека, спасибо)
+ttps://boxior.github.io/test-ssd-celendar/build/.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
