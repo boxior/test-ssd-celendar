@@ -1,4 +1,4 @@
-ttps://boxior.github.io/test-ssd-celendar/build/.
+https://boxior.github.io/test-ssd-celendar/build/.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
