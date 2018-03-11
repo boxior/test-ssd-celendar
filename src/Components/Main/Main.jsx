@@ -100,6 +100,8 @@ class Main extends Component {
 
     }
 
+
+
     setActiveStateAllDay = (day) => {
         let obj = {};
         if (!this.state[day].active) {
@@ -203,7 +205,7 @@ class Main extends Component {
         this.setActiveStateHour(e);
     };
 
-    componentDidMount = () => {
+    componentDidMount() {
         this.documentMouseUp();
     };
 
