@@ -7,6 +7,8 @@ import Header from "../Header/Header";
 import Main from "../Main/Main";
 import {store} from "../TestRedux/TestRedux";
 
+console.log("store", store);
+
 // const history = createBrowserHistory();
 
 class App extends Component {

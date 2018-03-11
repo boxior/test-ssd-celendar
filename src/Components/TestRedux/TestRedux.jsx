@@ -12,7 +12,6 @@ function playlist(state = [], action) {
 
 
 export const store = createStore(playlist);
-console.log("store", store);
 store.subscribe(() => {
     console.log("subscribe", store.getState());
 });
